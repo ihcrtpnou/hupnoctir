@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TourPinch!</title>
+
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZre3l_Q8-PRceWdfkWd7RznX5O5OWjY8&sensor=true"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/s.css">
+	</head>
+
+	<body>
+
+		<!--Main div where the contents will be rendered-->
+		<div id="main"></div>
+
+
+		<!-- Home Template -->
+		<script type="text/template" id="template_home">
+			<link rel="stylesheet" type="text/css" href="stylesheets/home.css">
+
+			<div id="home_top">
+				<img id="home_button_contact" src="images/home/contact.png"></img>
+				<img id="home_button_about" src="images/home/about.png"></img>
+			</div>
+
+			<div id="home_center">
+				<div id="home_logo">
+					<img id="home_logo_p" src="images/home/P.png"></img>
+					<p id="home_logo_i">I</p>
+					<p id="home_logo_n">N</p>
+					<p id="home_logo_c">C</p>
+					<p id="home_logo_h">H</p>
+				</div>
+
+				<div id="home_catchphrase">
+					YOU <span style="color: red">PINCH</span> THE DESTINATION, WE <span style="color: green">CLINCH</span> THE ROUTE.
+				</div>
+
+				<div id="home_search">
+					<input id="home_input_search" type="text"></input>
+					<img id="home_button_search" src="images/home/search.png"></img>
+				</div>
+
+			</div>
+		</script><!--End Home Template-->
+
+
+		<!-- Map Template -->
+		<script type="text/template" id="template_map">
+			<link rel="stylesheet" type="text/css" href="stylesheets/map.css">
+		
+			<div id="map"></div>
+
+			<!--//Control Elements-->
+			<div id="map_control">
+				<p>Hello</p>
+				<div>
+					San Francisco
+				</div>
+
+				<div>Day 1</div>
+				<div>Day 2</div>
+				<div>Day 3</div>
+
+				<div>
+					<ol>
+						<li>1. Tour attraction 1</li>
+						<li>2. Tour attraction 2</li>
+						<li>3. Tour attraction 3</li>
+						<li>4. Tour attraction 4</li>
+					</ol>
+				</div>
+			</div><!--//End of Control Element-->
+		</script><!--End Map Template-->
+
+
+
+
+		<!--DEPENDENCIES : JQuery, Underscore, and Backbone-->
+		<script src="javascripts/libraries/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="javascripts/libraries/underscore-min.js" type="text/javascript"></script>
+		<script src="javascripts/libraries/backbone-min.js"></script>
+
+
+		<!--MODELS-->
+		<script src="javascripts/models/city.js" type="text/javascript"></script>
+
+
+		<!--COLLECTIONS-->
+		<script src="javascripts/collections/cities.js" type="text/javascript"></script>
+
+
+		<!--VIEWS-->
+			<!--HOME VIEW-->
+		<script src="javascripts/views/home_autocomplete_item.js" type="text/javascript"></script>
+		<script src="javascripts/views/home_autocomplete.js" type="text/javascript"></script>
+		<script src="javascripts/views/home.js" type="text/javascript"></script>
+			<!--MAP VIEW-->
+		<script src="javascripts/views/map.js" type="text/javascript"></script>
+
+
+		<!--ROUTER-->
+		<script src="javascripts/router/router.js" type="text/javascript"></script>
+
+
+		<!--APPLICATION-->
+		<script src="javascripts/application/app.js" type="text/javascript"></script>
+	</body>
+
+</html>

@@ -1,0 +1,25 @@
+@font-face {
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+	font-family: Quicksand-Bold;
+	src: url(../fonts/Quicksand-Bold.otf);
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Quicksand, sans-serif;
+
+}
+/*
+html {
+	background: url(../images/home/main_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
