@@ -48,29 +48,56 @@
 		<!-- Map Template -->
 		<script type="text/template" id="template_map">
 			<link rel="stylesheet" type="text/css" href="stylesheets/map.css">
-		
-			<div id="map"></div>
 
-			<!--//Control Elements-->
+
+			<!-- Navigation Bar-->
+			<div id="map_navigation_bar">
+				<div id="map_navigation_bar_logo_wrapper">
+					<img id="map_navigation_bar_logo"src="images/home/Photoshop-2_0006_PINCH.png">
+					</img>
+				</div>
+				<div id="map_navigation_bar_search_wrapper">
+					<input id="map_navigation_bar_search_input" type="text">
+					</input>
+				</div>
+				<div id="map_navigation_bar_options_wrapper">
+					<img id="home_button_contact" src="images/home/contact.png"></img>
+					<img id="home_button_about" src="images/home/about.png"></img>
+				</div>
+			</div><!--// End Navigation Bar-->
+		
+
+			<!--Control Elements-->
 			<div id="map_control">
-				<p>Hello</p>
-				<div>
+				<div id="map_control_title">
 					San Francisco
 				</div>
 
-				<div>Day 1</div>
-				<div>Day 2</div>
-				<div>Day 3</div>
+				<div id="map_control_options">
+					<div id="map_control_options_one_day_button" class="map_control_option">1 Day Guide</div>
+					<div id="map_control_options_two_day_button" class="map_control_option">2 Day Guide</div>
+					<div id="map_control_options_three_day_button" class="map_control_option">3 Day Guide</div>
+				</div>
 
-				<div>
-					<ol>
-						<li>1. Tour attraction 1</li>
-						<li>2. Tour attraction 2</li>
-						<li>3. Tour attraction 3</li>
-						<li>4. Tour attraction 4</li>
-					</ol>
+				<div id="map_control_days">
+
+				</div>
+
+				<div id="map_control_details">
+					<ul>
+						<li>Tour attraction 1</li>
+						<li>Tour attraction 2</li>
+						<li>Tour attraction 3</li>
+						<li>Tour attraction 4</li>
+					</ul>
 				</div>
 			</div><!--//End of Control Element-->
+
+
+			<!--Render Map-->
+			<div id="map"></div>
+
+
 		</script><!--End Map Template-->
 
 

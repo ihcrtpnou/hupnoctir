@@ -1,0 +1,86 @@
+/*
+ *
+ *
+ *
+ */
+
+#map {
+	height: 100%;
+}
+
+
+#map_navigation_bar {
+	position: absolute;
+	z-index: 1;
+
+	height: 50px;
+	width: 100%;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+	background-color: rgba(255, 247, 153, 1);
+}
+
+
+#map_navigation_bar_logo_wrapper {
+	width: 20%;
+	float: left;
+}
+
+#map_navigation_bar_logo {
+	width: 125px;
+	margin-top: 8px;
+	margin-left: 29px;
+}
+
+
+#map_navigation_bar_search_wrapper {
+	width: 60%;
+	float: left;
+	text-align: center;
+}
+
+#map_navigation_bar_search_input {
+	border-radius: 10px;
+	border: 1px solid lightgrey;
+	outline: 0;
+	width: 295px;
+	height: 33px;
+	margin-top: 8px;
+}
+
+#map_navigation_bar_options_wrapper {
+	width: 20%;
+	float: left;
+}
+
+
+#map_control {
+
+	position: absolute;
+	z-index: 1;
+
+	width: 300px;
+
+	margin-left: 50px;
+	margin-top: 100px;
+
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+
+
+}
+
+#map_control_title {
+	background-color: rgba(0,0,0,1);
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.map_control_option {
+	background-color: rgba(0,0,0,1);
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	margin: 10px;
+	height: 50px;
+}

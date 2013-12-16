@@ -14,6 +14,134 @@ var c1 = new City({
 	mapCoordinates : {
 		latitude : 37.785097,
 		longtitude : -122.439707
+	},
+	itineraries : {
+		oneDay : {
+			dayOne : {
+				p1 : {
+					name : "One",
+					description : "AAAAAAAAAAAAAA",
+					latitude : 37.78192, 
+					longtitude : -122.41135
+				},
+				p2 : { 
+					name : "Two",
+					description : "BBBBBBBBBBBBB",
+					latitude : 37.79236, 
+					longtitude : -122.39847 
+				},
+				p3 : { 
+					name : "Three",
+					description : "ccccccccccccc",
+					latitude : 37.80661, 
+					longtitude : -122.40671
+				}
+			}
+		},
+		twoDay : {
+			dayOne : {
+				p1 : {
+					name : "One",
+					description : "AAAAAAAAAAAAAA",
+					latitude : 37.78924, 
+					longtitude : -122.41770
+				},
+				p2 : { 
+					name : "Two",
+					description : "BBBBBBBBBBBBB",
+					latitude : 37.79575, 
+					longtitude : -122.41049
+				},
+				p3 : { 
+					name : "Three",
+					description : "ccccccccccccc",
+					latitude : 37.80294, 
+					longtitude : -122.40791
+				}
+			},
+			dayTwo : {
+				p1 : {
+					name : "One",
+					description : "AAAAAAAAAAAAAA",
+					latitude : 37.78192, 
+					longtitude : -122.41135
+				},
+				p2 : { 
+					name : "Two",
+					description : "BBBBBBBBBBBBB",
+					latitude : 37.79236, 
+					longtitude : -122.39847 
+				},
+				p3 : { 
+					name : "Three",
+					description : "ccccccccccccc",
+					latitude : 37.80661, 
+					longtitude : -122.40671
+				}
+			}
+		},
+		threeDay : {
+			dayOne : {
+				p1 : {
+					name : "One",
+					description : "AAAAAAAAAAAAAA",
+					latitude : 37.78192, 
+					longtitude : -122.41135
+				},
+				p2 : { 
+					name : "Two",
+					description : "BBBBBBBBBBBBB",
+					latitude : 37.79236, 
+					longtitude : -122.39847 
+				},
+				p3 : { 
+					name : "Three",
+					description : "ccccccccccccc",
+					latitude : 37.80661, 
+					longtitude : -122.40671
+				}
+			},
+			dayTwo : {
+				p1 : {
+					name : "One",
+					description : "AAAAAAAAAAAAAA",
+					latitude : 37.78924, 
+					longtitude : -122.41770
+				},
+				p2 : { 
+					name : "Two",
+					description : "BBBBBBBBBBBBB",
+					latitude : 37.79575, 
+					longtitude : -122.41049
+				},
+				p3 : { 
+					name : "Three",
+					description : "ccccccccccccc",
+					latitude : 37.80294, 
+					longtitude : -122.40791
+				}
+			},
+			dayThree : {
+				p1 : {
+					name : "One",
+					description : "AAAAAAAAAAAAAA",
+					latitude : 37.78824, 
+					longtitude : -122.41770
+				},
+				p2 : { 
+					name : "Two",
+					description : "BBBBBBBBBBBBB",
+					latitude : 37.79375, 
+					longtitude : -122.41049
+				},
+				p3 : { 
+					name : "Three",
+					description : "ccccccccccccc",
+					latitude : 37.80274, 
+					longtitude : -122.40791
+				}
+			}
+		}
 	}
 });
 var c2 = new City({
